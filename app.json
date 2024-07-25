@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "react-native-todo",
+    "name": "To-Do List",
     "slug": "react-native-todo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon.jpg",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -18,10 +18,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.angry3vilbot.reactnativetodo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2a874301-dd41-4344-96c2-50e81f184c83"
+      }
     }
   }
 }

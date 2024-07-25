@@ -17,6 +17,7 @@ const NewTodoModal: React.FC<NewTodoModalProps> = ({ modalVisible, setModalVisib
         if (title.length > 0) {
             const newTodo = { title, completed: false, color: checked };
             addTodo(newTodo);
+            setTitle('');
             setModalVisible(!modalVisible);
         }
     }
